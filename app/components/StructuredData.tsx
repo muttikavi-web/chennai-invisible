@@ -29,7 +29,7 @@ export default function StructuredData() {
     description:
       'Premium invisible grill solutions for windows and doors with expert installation across India',
     url: 'https://falcongrillschennai.com',
-    telephone: '+91-XXXXXXXXXX',
+    telephone: '+91-8008430800',
     email: 'info@falcongrillschennai.com',
     image: 'https://falcongrillschennai.com/og-image.jpg',
     logo: {
@@ -97,7 +97,7 @@ export default function StructuredData() {
     contactPoint: [
       {
         '@type': 'ContactPoint',
-        telephone: '+91-XXXXXXXXXX',
+        telephone: '+91-8008430800',
         contactType: 'Sales',
         availableLanguage: ['en', 'hi'],
       },
@@ -109,7 +109,7 @@ export default function StructuredData() {
       },
       {
         '@type': 'ContactPoint',
-        telephone: '+91-XXXXXXXXXX',
+        telephone: '+91-8008430800',
         contactType: 'Installation & Service',
         availableLanguage: ['en', 'hi'],
       },
@@ -519,7 +519,7 @@ export default function StructuredData() {
       {
         '@type': 'ContactPoint',
         contactType: 'Sales',
-        telephone: '+91-XXXXXXXXXX',
+        telephone: '+91-8008430800',
         email: 'sales@falcongrillschennai.com',
         areaServed: ['IN'],
         availableLanguage: ['en', 'hi'],
@@ -533,7 +533,7 @@ export default function StructuredData() {
       {
         '@type': 'ContactPoint',
         contactType: 'Customer Support',
-        telephone: '+91-XXXXXXXXXX',
+        telephone: '+91-8008430800',
         email: 'support@falcongrillschennai.com',
         areaServed: ['IN'],
         availableLanguage: ['en', 'hi'],
@@ -541,7 +541,7 @@ export default function StructuredData() {
       {
         '@type': 'ContactPoint',
         contactType: 'Installation Request',
-        telephone: '+91-XXXXXXXXXX',
+        telephone: '+91-8008430800',
         url: 'https://falcongrillschennai.com#contact',
         areaServed: ['IN'],
       },

@@ -29,9 +29,9 @@ export default function Header() {
           </nav>
 
           <div className="flex items-center gap-4 text-sm">
-            <a href="tel:+919876543210" className="hidden sm:flex items-center gap-1 text-gray-700 hover:text-blue-600">
+            <a href="tel:+918008430800" className="hidden sm:flex items-center gap-1 text-gray-700 hover:text-blue-600">
               <Phone size={16} />
-              <span>+91 98765 43210</span>
+              <span>+91 8008 430 800</span>
             </a>
             <button className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors">
               Get Quote
