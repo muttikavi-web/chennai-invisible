@@ -3,37 +3,37 @@ import { MetadataRoute } from 'next';
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://falcongrillschennai.com',
+      url: 'https://falconinvisiblegrill.com',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 1,
     },
     {
-      url: 'https://falcongrillschennai.com#features',
+      url: 'https://falconinvisiblegrill.com#features',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: 'https://falcongrillschennai.com#services',
+      url: 'https://falconinvisiblegrill.com#services',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.9,
     },
     {
-      url: 'https://falcongrillschennai.com#process',
+      url: 'https://falconinvisiblegrill.com#process',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://falcongrillschennai.com#gallery',
+      url: 'https://falconinvisiblegrill.com#gallery',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://falcongrillschennai.com#testimonials',
+      url: 'https://falconinvisiblegrill.com#testimonials',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.7,

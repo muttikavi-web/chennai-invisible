@@ -92,8 +92,8 @@ export default function Contact() {
               <Mail className="w-6 h-6 text-blue-600 flex-shrink-0 mt-1" />
               <div>
                 <h3 className="font-semibold text-gray-900 mb-1">Email</h3>
-                <a href="mailto:info@falcongrillschennai.com" className="text-gray-600 hover:text-blue-600">
-                  info@falcongrillschennai.com
+                <a href="mailto:info@falconinvisiblegrill.com" className="text-gray-600 hover:text-blue-600">
+                  info@falconinvisiblegrill.com
                 </a>
               </div>
             </div>

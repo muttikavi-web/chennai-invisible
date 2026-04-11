@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/admin',
     },
-    sitemap: 'https://falcongrillschennai.com/sitemap.xml',
+    sitemap: 'https://falconinvisiblegrill.com/sitemap.xml',
   };
 }

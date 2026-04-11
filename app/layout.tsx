@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://falcongrillschennai.com'),
+  metadataBase: new URL('https://falconinvisiblegrill.com'),
   title: {
     default: 'Invisible Grills | Premium Window & Door Grills Solution | Falcon Grills',
     template: '%s | Falcon Invisible Grills',
@@ -247,7 +247,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://falcongrillschennai.com',
+    url: 'https://falconinvisiblegrill.com',
     title: 'Invisible Grills | Premium Window & Door Grills | #1 Grill Solution',
     description:
       'Falcon Invisible Grills offers premium invisible window grills, door grills & frameless grills in Delhi, Mumbai, Bangalore, Hyderabad. Safe, elegant & durable solutions. Professional installation available nationwide.',
@@ -290,9 +290,9 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://falcongrillschennai.com',
+    canonical: 'https://falconinvisiblegrill.com',
     languages: {
-      'en-US': 'https://falcongrillschennai.com',
+      'en-US': 'https://falconinvisiblegrill.com',
     },
   },
   referrer: 'strict-origin-when-cross-origin',
