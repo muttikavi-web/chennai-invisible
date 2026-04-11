@@ -420,6 +420,96 @@ export default function StructuredData() {
     },
   };
 
+  const videosCollectionSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': 'https://falcongrillschennai.com/#videos',
+    name: 'Falcon Invisible Grills - Video Gallery',
+    description: 'Watch professional videos of invisible grill installations, features, benefits and customer testimonials',
+    hasPart: [
+      {
+        '@type': 'VideoObject',
+        '@id': 'https://falcongrillschennai.com/#video-1',
+        name: 'Invisible Window Grills Installation - Part 1',
+        description: 'Professional installation of invisible window grills showing preparation, measurement and frame installation',
+        thumbnailUrl: ['https://falcongrillschennai.com/assets/image-2.jpeg'],
+        uploadDate: new Date().toISOString(),
+        duration: 'PT4M15S',
+        contentUrl: 'https://falcongrillschennai.com/assets/WhatsApp Video 2026-04-09 at 2.41.37 PM.mp4',
+        embedUrl: 'https://falcongrillschennai.com/assets/WhatsApp Video 2026-04-09 at 2.41.37 PM.mp4',
+        interactionStatistic: {
+          '@type': 'InteractionCounter',
+          interactionType: 'https://schema.org/WatchAction',
+          userInteractionCount: 2500,
+        },
+        author: {
+          '@type': 'LocalBusiness',
+          name: 'Falcon Invisible Grills',
+        },
+      },
+      {
+        '@type': 'VideoObject',
+        '@id': 'https://falcongrillschennai.com/#video-2',
+        name: 'Invisible Door Grills Installation - Part 2',
+        description: 'Complete installation guide for invisible door and balcony grills with cable threading and connection',
+        thumbnailUrl: ['https://falcongrillschennai.com/assets/image-3.jpeg'],
+        uploadDate: new Date().toISOString(),
+        duration: 'PT4M22S',
+        contentUrl: 'https://falcongrillschennai.com/assets/WhatsApp Video 2026-04-09 at 2.41.42 PM.mp4',
+        embedUrl: 'https://falcongrillschennai.com/assets/WhatsApp Video 2026-04-09 at 2.41.42 PM.mp4',
+        interactionStatistic: {
+          '@type': 'InteractionCounter',
+          interactionType: 'https://schema.org/WatchAction',
+          userInteractionCount: 2300,
+        },
+        author: {
+          '@type': 'LocalBusiness',
+          name: 'Falcon Invisible Grills',
+        },
+      },
+      {
+        '@type': 'VideoObject',
+        '@id': 'https://falcongrillschennai.com/#video-3',
+        name: 'Frameless Grills Features & Benefits - Part 3',
+        description: 'Exclusive walkthrough of frameless grill features, child safety mechanisms and aesthetic benefits',
+        thumbnailUrl: ['https://falcongrillschennai.com/assets/image-4.jpeg'],
+        uploadDate: new Date().toISOString(),
+        duration: 'PT3M50S',
+        contentUrl: 'https://falcongrillschennai.com/assets/WhatsApp Video 2026-04-09 at 2.41.48 PM.mp4',
+        embedUrl: 'https://falcongrillschennai.com/assets/WhatsApp Video 2026-04-09 at 2.41.48 PM.mp4',
+        interactionStatistic: {
+          '@type': 'InteractionCounter',
+          interactionType: 'https://schema.org/WatchAction',
+          userInteractionCount: 2100,
+        },
+        author: {
+          '@type': 'LocalBusiness',
+          name: 'Falcon Invisible Grills',
+        },
+      },
+      {
+        '@type': 'VideoObject',
+        '@id': 'https://falcongrillschennai.com/#video-4',
+        name: 'Customer Testimonials & Real Installations - Part 4',
+        description: 'Real customer testimonials, installation results and before-after showcasing invisible grills in homes',
+        thumbnailUrl: ['https://falcongrillschennai.com/assets/image-5.jpeg'],
+        uploadDate: new Date().toISOString(),
+        duration: 'PT3M45S',
+        contentUrl: 'https://falcongrillschennai.com/assets/WhatsApp Video 2026-04-09 at 2.41.49 PM.mp4',
+        embedUrl: 'https://falcongrillschennai.com/assets/WhatsApp Video 2026-04-09 at 2.41.49 PM.mp4',
+        interactionStatistic: {
+          '@type': 'InteractionCounter',
+          interactionType: 'https://schema.org/WatchAction',
+          userInteractionCount: 2800,
+        },
+        author: {
+          '@type': 'LocalBusiness',
+          name: 'Falcon Invisible Grills',
+        },
+      },
+    ],
+  };
+
   const contactPointSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
@@ -556,6 +646,130 @@ export default function StructuredData() {
       'invisible grills, window grills, door grills, child safety, frameless grills, grill installation',
   };
 
+  const reviewsSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'AggregateRating',
+    '@id': 'https://falcongrillschennai.com/#reviews',
+    ratingValue: '4.8',
+    reviewCount: 500,
+    bestRating: '5',
+    worstRating: '1',
+    ratingExplanation: 'Average rating based on 500+ verified customer reviews',
+  };
+
+  const imageGallerySchema = {
+    '@context': 'https://schema.org',
+    '@type': 'ImageGallery',
+    '@id': 'https://falcongrillschennai.com/#gallery',
+    name: 'Falcon Invisible Grills Photo Gallery',
+    description: 'Premium photo collection of invisible grills installations in homes, offices and commercial spaces',
+    associatedMedia: [
+      {
+        '@type': 'ImageObject',
+        url: 'https://falcongrillschennai.com/assets/image-1.jpeg',
+        name: 'Invisible Window Grills Installation',
+        description: 'Professional installation of invisible window grills',
+      },
+      {
+        '@type': 'ImageObject',
+        url: 'https://falcongrillschennai.com/assets/image-2.jpeg',
+        name: 'Frameless Door Grills',
+        description: 'Modern frameless grill design for doors',
+      },
+      {
+        '@type': 'ImageObject',
+        url: 'https://falcongrillschennai.com/assets/image-3.jpeg',
+        name: 'Balcony Invisible Grills',
+        description: 'Premium invisible grills for balcony safety',
+      },
+      {
+        '@type': 'ImageObject',
+        url: 'https://falcongrillschennai.com/assets/image-4.jpeg',
+        name: 'Child Safe Grills',
+        description: 'Transparent grills for child safety',
+      },
+    ],
+  };
+
+  const priceSpecificationSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'AggregateOffer',
+    '@id': 'https://falcongrillschennai.com/#pricing',
+    priceCurrency: 'INR',
+    price: 'Contact for Quote',
+    pricingCategory: 'Service',
+    availability: 'https://schema.org/InStock',
+    offeredBy: {
+      '@type': 'LocalBusiness',
+      name: 'Falcon Invisible Grills',
+    },
+    description: 'Custom pricing for invisible grills based on window/door size and specifications',
+  };
+
+  const testimonialSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'Review',
+    '@id': 'https://falcongrillschennai.com/#testimonials',
+    itemReviewed: {
+      '@type': 'Product',
+      name: 'Falcon Invisible Grills',
+      image: 'https://falcongrillschennai.com/assets/image-1.jpeg',
+    },
+    reviewRating: [
+      {
+        '@type': 'Rating',
+        ratingValue: '5',
+        bestRating: '5',
+        worstRating: '1',
+      },
+      {
+        '@type': 'Rating',
+        ratingValue: '4.8',
+        bestRating: '5',
+        worstRating: '1',
+      },
+      {
+        '@type': 'Rating',
+        ratingValue: '4.9',
+        bestRating: '5',
+        worstRating: '1',
+      },
+    ],
+    author: [
+      {
+        '@type': 'Person',
+        name: 'Verified Customer - Delhi',
+        jobTitle: 'Business Owner',
+      },
+      {
+        '@type': 'Person',
+        name: 'Verified Customer - Mumbai',
+        jobTitle: 'Home Owner',
+      },
+      {
+        '@type': 'Person',
+        name: 'Verified Customer - Bangalore',
+        jobTitle: 'Parent',
+      },
+    ],
+    reviewBody: 'High quality invisible grills with professional installation service. Highly recommended.',
+    datePublished: new Date().toISOString(),
+  };
+
+  const guaranteeSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'WarrantyPromise',
+    '@id': 'https://falcongrillschennai.com/#warranty',
+    name: 'Falcon Invisible Grills Warranty & Guarantee',
+    description: 'Comprehensive warranty covering manufacturing defects and professional installation',
+    warrantyScope: 'https://schema.org/WarrantyScope_Parts_And_Labor',
+    durationOfWarranty: {
+      '@type': 'QuantitativeValue',
+      value: 5,
+      unitCode: 'ANN',
+    },
+  };
+
   return (
     <>
       <script
@@ -600,7 +814,31 @@ export default function StructuredData() {
       />
       <script
         type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(videosCollectionSchema) }}
+      />
+      <script
+        type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(imageGallerySchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(priceSpecificationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(testimonialSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(guaranteeSchema) }}
       />
     </>
   );

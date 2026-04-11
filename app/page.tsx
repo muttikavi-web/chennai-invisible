@@ -6,6 +6,7 @@ import Services from '@/components/Services';
 import WhyChooseUs from '@/components/WhyChooseUs';
 import Process from '@/components/Process';
 import Gallery from '@/components/Gallery';
+import VideoGallery from '@/components/VideoGallery';
 import Carousel from '@/components/Carousel';
 import Testimonials from '@/components/Testimonials';
 import FAQ from '@/components/FAQ';
@@ -35,6 +36,7 @@ export default function Home() {
       <Services />
       <WhyChooseUs />
       <Process />
+      <VideoGallery />
       <Gallery />
       <Carousel />
       <Testimonials />
