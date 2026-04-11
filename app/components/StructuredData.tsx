@@ -75,10 +75,17 @@ export default function StructuredData() {
     priceRange: '₹₹₹',
     knowsAbout: [
       'Invisible Grills',
+      'Invisible Grills Chennai',
+      'Invisible Window Grills',
+      'Balcony Invisible Grills',
+      'Invisible Grill Price',
       'Window Safety',
       'Door Safety',
       'Frameless Grills',
       'Grill Installation',
+      'Child Safety Grills',
+      'Stainless Steel Grills',
+      'Custom Invisible Grills',
     ],
     aggregateRating: {
       '@type': 'AggregateRating',
