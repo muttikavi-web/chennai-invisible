@@ -57,6 +57,7 @@ export default function StructuredData() {
       { '@type': 'City', name: 'Chennai' },
       { '@type': 'City', name: 'Bangalore' },
       { '@type': 'City', name: 'Bengaluru' },
+       { '@type': 'City', name: 'Konark' },
       { '@type': 'City', name: 'Hyderabad' },
       { '@type': 'City', name: 'Mumbai' },
       { '@type': 'City', name: 'Delhi' },
