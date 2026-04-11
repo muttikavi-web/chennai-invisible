@@ -133,10 +133,7 @@ export default function StructuredData() {
         name: 'Invisible Window Grills',
         description: 'Premium invisible grills for windows - child safe, unobstructed view, durable stainless steel',
         priceCurrency: 'INR',
-        priceSpecification: {
-          '@type': 'PriceSpecification',
-          priceCurrency: 'INR',
-        },
+        price: '0',
         availability: 'https://schema.org/InStock',
         url: 'https://falcongrillschennai.com#services',
         areaServed: [
@@ -151,10 +148,7 @@ export default function StructuredData() {
         name: 'Invisible Door Grills',
         description: 'Durable invisible grills for doors and balconies - premium protection',
         priceCurrency: 'INR',
-        priceSpecification: {
-          '@type': 'PriceSpecification',
-          priceCurrency: 'INR',
-        },
+        price: '0',
         availability: 'https://schema.org/InStock',
         url: 'https://falcongrillschennai.com#services',
         areaServed: [
@@ -169,10 +163,7 @@ export default function StructuredData() {
         name: 'Frameless Grills',
         description: 'Modern frameless grill solutions - contemporary design meets safety',
         priceCurrency: 'INR',
-        priceSpecification: {
-          '@type': 'PriceSpecification',
-          priceCurrency: 'INR',
-        },
+        price: '0',
         availability: 'https://schema.org/InStock',
         url: 'https://falcongrillschennai.com#services',
         areaServed: [
