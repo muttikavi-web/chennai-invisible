@@ -646,17 +646,6 @@ export default function StructuredData() {
       'invisible grills, window grills, door grills, child safety, frameless grills, grill installation',
   };
 
-  const reviewsSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'AggregateRating',
-    '@id': 'https://falconinvisiblegrill.com/#reviews',
-    ratingValue: '4.8',
-    reviewCount: 500,
-    bestRating: '5',
-    worstRating: '1',
-    ratingExplanation: 'Average rating based on 500+ verified customer reviews',
-  };
-
   const imageGallerySchema = {
     '@context': 'https://schema.org',
     '@type': 'ImageGallery',
@@ -826,10 +815,6 @@ export default function StructuredData() {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(articleSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewsSchema) }}
       />
       <script
         type="application/ld+json"
