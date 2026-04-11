@@ -39,13 +39,63 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.7,
     },
     {
-      url: 'https://falconinvisiblegrills.com#faq',
+      url: 'https://falconinvisiblegrill.com#faq',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    
+    {
+      url: 'https://falconinvisiblegrill.com#contact',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+     {
+      url: 'https://falconinvisiblegrill.com',
+      lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 1,
+    },
+    {
+      url: 'https://www.falconinvisiblegrill.com#features',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://www.falconinvisiblegrill.com#services',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.9,
+    },
+    {
+      url: 'https://www.falconinvisiblegrill.com#process',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.8,
     },
     {
-      url: 'https://falconinvisiblegrills.com#contact',
+      url: 'https://www.falconinvisiblegrill.com#gallery',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    {
+      url: 'https://www.falconinvisiblegrill.com#testimonials',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: 'https://www.falconinvisiblegrill.com#faq',
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.8,
+    },
+    
+    {
+      url: 'https://www.falconinvisiblegrill.com#contact',
       lastModified: new Date(),
       changeFrequency: 'weekly',
       priority: 0.9,
