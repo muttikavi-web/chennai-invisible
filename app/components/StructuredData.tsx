@@ -714,6 +714,13 @@ export default function StructuredData() {
       '@type': 'Product',
       name: 'Falcon Invisible Grills',
       image: 'https://falconinvisiblegrill.com/assets/image-1.jpeg',
+      aggregateRating: {
+        '@type': 'AggregateRating',
+        ratingValue: '4.8',
+        ratingCount: 500,
+        bestRating: '5',
+        worstRating: '1',
+      },
     },
     reviewRating: [
       {
