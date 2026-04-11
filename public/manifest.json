@@ -1,0 +1,35 @@
+{
+  "name": "Falcon Invisible Grills - Premium Grill Solutions",
+  "short_name": "Falcon Grills",
+  "description": "Premium invisible grill solutions for windows and doors with expert installation and lifetime support.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "any",
+      "type": "image/x-icon",
+      "purpose": "any"
+    }
+  ],
+  "categories": [
+    "business"
+  ],
+  "shortcuts": [
+    {
+      "name": "Get Free Consultation",
+      "short_name": "Consultation",
+      "description": "Get a free consultation for your invisible grill needs",
+      "url": "/?shortcut=consultation",
+      "icons": [
+        {
+          "src": "/icon-192x192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ]
+}
