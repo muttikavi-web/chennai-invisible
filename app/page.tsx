@@ -15,15 +15,19 @@ import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 
 export const metadata: Metadata = {
-  title: 'Invisible Grills Online | Premium Window Grills | Buy Falcon Grills',
+  title: 'Invisible Grills | Premium Frameless Window Grills in Chennai, Delhi & India',
   description:
-    'Shop premium invisible grills online. Falcon offers frameless window grills, door grills, and safety grills with professional installation in Delhi, Mumbai, Bangalore & nationwide. Safe, elegant, durable grill solutions.',
+    'Falcon Invisible Grills offers premium invisible window grills, door grills & frameless safety solutions. Professional installation across India. Safe, elegant, durable. Get free quote today!',
   keywords: [
+    'invisible grills',
+    'invisible grills in chennai',
+    'invisible grills in delhi',
+    'safety invisible grills',
+    'frameless grills',
+    'window grills',
+    'door grills',
     'invisible grills online',
     'buy invisible grills',
-    'invisible grill price',
-    'premium window grills',
-    'door grills installation',
   ],
 };
 
