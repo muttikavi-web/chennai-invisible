@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'window grill installation process',
   ],
   alternates: {
-    canonical: 'https://www.falconinvisiblegrill.com/process',
+    canonical: 'https://www.chennaiinvisiblegrill.com/process',
   },
 };
 
@@ -32,3 +32,4 @@ export default function ProcessPage() {
     </main>
   );
 }
+

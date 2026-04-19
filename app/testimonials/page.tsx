@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     'customer satisfaction',
   ],
   alternates: {
-    canonical: 'https://www.falconinvisiblegrill.com/testimonials',
+    canonical: 'https://www.chennaiinvisiblegrill.com/testimonials',
   },
 };
 
@@ -34,3 +34,4 @@ export default function TestimonialsPage() {
     </main>
   );
 }
+

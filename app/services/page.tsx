@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     'invisible grills in delhi',
   ],
   alternates: {
-    canonical: 'https://www.falconinvisiblegrill.com/services',
+    canonical: 'https://www.chennaiinvisiblegrill.com/services',
   },
 };
 
@@ -38,3 +38,4 @@ export default function ServicesPage() {
     </main>
   );
 }
+

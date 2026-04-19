@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'frameless grill designs',
   ],
   alternates: {
-    canonical: 'https://www.falconinvisiblegrill.com/gallery',
+    canonical: 'https://www.chennaiinvisiblegrill.com/gallery',
   },
 };
 
@@ -36,3 +36,4 @@ export default function GalleryPage() {
     </main>
   );
 }
+

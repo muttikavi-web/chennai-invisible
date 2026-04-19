@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://falconinvisiblegrill.com'),
+  metadataBase: new URL('https://www.chennaiinvisiblegrill.com'),
   title: {
     default: 'Invisible Grills | Premium Window & Door Grills Solution | Falcon Grills',
     template: '%s | Falcon Invisible Grills',
@@ -247,7 +247,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://falconinvisiblegrill.com',
+    url: 'https://www.chennaiinvisiblegrill.com',
     title: 'Invisible Grills | Premium Window & Door Grills | #1 Grill Solution',
     description:
       'Falcon Invisible Grills offers premium invisible window grills, door grills & frameless grills in Delhi, Mumbai, Bangalore, Hyderabad. Safe, elegant & durable solutions. Professional installation available nationwide.',
@@ -290,9 +290,9 @@ export const metadata: Metadata = {
     },
   },
   alternates: {
-    canonical: 'https://falconinvisiblegrill.com',
+    canonical: 'https://www.chennaiinvisiblegrill.com',
     languages: {
-      'en-US': 'https://falconinvisiblegrill.com',
+      'en-US': 'https://www.chennaiinvisiblegrill.com',
     },
   },
   referrer: 'strict-origin-when-cross-origin',
@@ -326,3 +326,4 @@ export default function RootLayout({
     </html>
   );
 }
+

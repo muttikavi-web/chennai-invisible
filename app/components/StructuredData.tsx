@@ -2,8 +2,8 @@ export default function StructuredData() {
   const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    '@id': 'https://www.falconinvisiblegrill.com/#website',
-    url: 'https://www.falconinvisiblegrill.com',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#website',
+    url: 'https://www.chennaiinvisiblegrill.com',
     name: 'Falcon Invisible Grills',
     description: 'Premium invisible grill solutions for windows and doors with expert installation',
     publisher: {
@@ -14,7 +14,7 @@ export default function StructuredData() {
       '@type': 'SearchAction',
       target: {
         '@type': 'EntryPoint',
-        urlTemplate: 'https://www.falconinvisiblegrill.com?search={search_term_string}',
+        urlTemplate: 'https://www.chennaiinvisiblegrill.com?search={search_term_string}',
       },
       'query-input': 'required name=search_term_string',
     },
@@ -23,18 +23,18 @@ export default function StructuredData() {
   const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://www.falconinvisiblegrill.com/#organization',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#organization',
     name: 'Falcon Invisible Grills',
     alternateName: ['Falcon Grills', 'Invisible Grills', 'Falcon Invisible Grills India'],
     description:
       'Premium invisible grill solutions for windows and doors with expert installation across India',
-    url: 'https://www.falconinvisiblegrill.com',
+    url: 'https://www.chennaiinvisiblegrill.com',
     telephone: '+91-8008430800',
-    email: 'info@falconinvisiblegrill.com',
-    image: 'https://www.falconinvisiblegrill.com/og-image.jpg',
+    email: 'info@chennaiinvisiblegrill.com',
+    image: 'https://www.chennaiinvisiblegrill.com/og-image.jpg',
     logo: {
       '@type': 'ImageObject',
-      url: 'https://www.falconinvisiblegrill.com/logo.png',
+      url: 'https://www.chennaiinvisiblegrill.com/logo.png',
       width: 250,
       height: 60,
     },
@@ -103,7 +103,7 @@ export default function StructuredData() {
       },
       {
         '@type': 'ContactPoint',
-        email: 'info@falconinvisiblegrill.com',
+        email: 'info@chennaiinvisiblegrill.com',
         contactType: 'Customer Support',
         availableLanguage: ['en', 'hi'],
       },
@@ -119,10 +119,10 @@ export default function StructuredData() {
   const productsSchema = {
     '@context': 'https://schema.org',
     '@type': 'Product',
-    '@id': 'https://falconinvisiblegrill.com/#products',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#products',
     name: 'Invisible Grills',
     description: 'Premium invisible grill solutions for windows and doors',
-    image: 'https://falconinvisiblegrill.com/assets/image-1.jpeg',
+    image: 'https://www.chennaiinvisiblegrill.com/assets/image-1.jpeg',
     brand: {
       '@type': 'Brand',
       name: 'Falcon',
@@ -142,7 +142,7 @@ export default function StructuredData() {
         priceCurrency: 'INR',
         price: '0',
         availability: 'https://schema.org/InStock',
-        url: 'https://falconinvisiblegrill.com#services',
+        url: 'https://www.chennaiinvisiblegrill.com#services',
         areaServed: [
           { '@type': 'City', name: 'Delhi' },
           { '@type': 'City', name: 'Mumbai' },
@@ -157,7 +157,7 @@ export default function StructuredData() {
         priceCurrency: 'INR',
         price: '0',
         availability: 'https://schema.org/InStock',
-        url: 'https://falconinvisiblegrill.com#services',
+        url: 'https://www.chennaiinvisiblegrill.com#services',
         areaServed: [
           { '@type': 'City', name: 'Delhi' },
           { '@type': 'City', name: 'Mumbai' },
@@ -172,7 +172,7 @@ export default function StructuredData() {
         priceCurrency: 'INR',
         price: '0',
         availability: 'https://schema.org/InStock',
-        url: 'https://falconinvisiblegrill.com#services',
+        url: 'https://www.chennaiinvisiblegrill.com#services',
         areaServed: [
           { '@type': 'City', name: 'Delhi' },
           { '@type': 'City', name: 'Mumbai' },
@@ -186,13 +186,13 @@ export default function StructuredData() {
   const servicesSchema = {
     '@context': 'https://schema.org',
     '@type': 'Service',
-    '@id': 'https://falconinvisiblegrill.com/#services',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#services',
     name: 'Invisible Grill Installation & Services',
     description: 'Professional invisible grill installation and maintenance services',
     provider: {
       '@type': 'LocalBusiness',
       name: 'Falcon Invisible Grills',
-      url: 'https://falconinvisiblegrill.com',
+      url: 'https://www.chennaiinvisiblegrill.com',
     },
     hasOfferingDetails: [
       {
@@ -241,7 +241,7 @@ export default function StructuredData() {
   const faqSchema = {
     '@context': 'https://schema.org',
     '@type': 'FAQPage',
-    '@id': 'https://falconinvisiblegrill.com/#faq',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#faq',
     mainEntity: [
       {
         '@type': 'Question',
@@ -318,25 +318,25 @@ export default function StructuredData() {
         '@type': 'ListItem',
         position: 1,
         name: 'Home',
-        item: 'https://falconinvisiblegrill.com',
+        item: 'https://www.chennaiinvisiblegrill.com',
       },
       {
         '@type': 'ListItem',
         position: 2,
         name: 'Services',
-        item: 'https://falconinvisiblegrill.com#services',
+        item: 'https://www.chennaiinvisiblegrill.com#services',
       },
       {
         '@type': 'ListItem',
         position: 3,
         name: 'Gallery',
-        item: 'https://falconinvisiblegrill.com#gallery',
+        item: 'https://www.chennaiinvisiblegrill.com#gallery',
       },
       {
         '@type': 'ListItem',
         position: 4,
         name: 'Contact',
-        item: 'https://falconinvisiblegrill.com#contact',
+        item: 'https://www.chennaiinvisiblegrill.com#contact',
       },
     ],
   };
@@ -344,10 +344,10 @@ export default function StructuredData() {
   const howToSchema = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
-    '@id': 'https://falconinvisiblegrill.com/#howto',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#howto',
     name: 'How to Install Invisible Grills',
     description: 'Professional step-by-step guide to invisible grill installation by Falcon',
-    image: 'https://falconinvisiblegrill.com/assets/image-1.jpeg',
+    image: 'https://www.chennaiinvisiblegrill.com/assets/image-1.jpeg',
     prepTime: 'PT0H30M',
     totalTime: 'PT4H',
     tool: ['Drill', 'Measuring Tape', 'Level', 'Wrench', 'Installation Kit'],
@@ -358,42 +358,42 @@ export default function StructuredData() {
         position: 1,
         name: 'Window Measurement',
         text: 'Measure the window frame dimensions accurately. Use a measuring tape to get height and width at multiple points.',
-        image: 'https://falconinvisiblegrill.com/assets/image-2.jpeg',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-2.jpeg',
       },
       {
         '@type': 'HowToStep',
         position: 2,
         name: 'Frame Preparation',
         text: 'Clean the window frame and ensure it is level. Mark drilling points using the measurement guide.',
-        image: 'https://falconinvisiblegrill.com/assets/image-3.jpeg',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-3.jpeg',
       },
       {
         '@type': 'HowToStep',
         position: 3,
         name: 'Frame Installation',
         text: 'Install the grill frame into the window opening using the provided mounting hardware. Ensure it is securely fastened.',
-        image: 'https://falconinvisiblegrill.com/assets/image-4.jpeg',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-4.jpeg',
       },
       {
         '@type': 'HowToStep',
         position: 4,
         name: 'Cable Configuration',
         text: 'Thread the steel cables through the frame and connect them to the connector boxes and handle mechanism.',
-        image: 'https://falconinvisiblegrill.com/assets/image-5.jpeg',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-5.jpeg',
       },
       {
         '@type': 'HowToStep',
         position: 5,
         name: 'Testing & Adjustment',
         text: 'Test the grill functionality, adjust cable tension if needed, and verify smooth operation.',
-        image: 'https://falconinvisiblegrill.com/assets/image-6.jpeg',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-6.jpeg',
       },
       {
         '@type': 'HowToStep',
         position: 6,
         name: 'Final Inspection',
         text: 'Perform final safety checks, ensure all connections are secure, and clean the installed grill.',
-        image: 'https://falconinvisiblegrill.com/assets/image-7.jpeg',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-7.jpeg',
       },
     ],
   };
@@ -401,14 +401,14 @@ export default function StructuredData() {
   const videoObjectSchema = {
     '@context': 'https://schema.org',
     '@type': 'VideoObject',
-    '@id': 'https://www.falconinvisiblegrill.com/#video',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#video',
     name: 'Falcon Invisible Grills Installation Demo',
     description: 'Professional invisible grill installation video showcase. See how Falcon installs premium invisible grills in homes and offices.',
-    thumbnailUrl: ['https://www.falconinvisiblegrill.com/assets/image-1.jpeg'],
+    thumbnailUrl: ['https://www.chennaiinvisiblegrill.com/assets/image-1.jpeg'],
     uploadDate: new Date().toISOString(),
     duration: 'PT5M30S',
-    contentUrl: 'https://www.falconinvisiblegrill.com/assets/invisible-window-grills-installation-part-1.mp4',
-    embedUrl: 'https://www.falconinvisiblegrill.com/assets/invisible-window-grills-installation-part-1.mp4',
+    contentUrl: 'https://www.chennaiinvisiblegrill.com/assets/invisible-window-grills-installation-part-1.mp4',
+    embedUrl: 'https://www.chennaiinvisiblegrill.com/assets/invisible-window-grills-installation-part-1.mp4',
     interactionStatistic: {
       '@type': 'InteractionCounter',
       interactionType: 'https://schema.org/WatchAction',
@@ -423,20 +423,20 @@ export default function StructuredData() {
   const videosCollectionSchema = {
     '@context': 'https://schema.org',
     '@type': 'CollectionPage',
-    '@id': 'https://www.falconinvisiblegrill.com/#videos',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#videos',
     name: 'Falcon Invisible Grills - Video Gallery',
     description: 'Watch professional videos of invisible grill installations, features, benefits and customer testimonials',
     hasPart: [
       {
         '@type': 'VideoObject',
-        '@id': 'https://www.falconinvisiblegrill.com/#video-1',
+        '@id': 'https://www.chennaiinvisiblegrill.com/#video-1',
         name: 'Invisible Window Grills Installation - Part 1',
         description: 'Professional installation of invisible window grills showing preparation, measurement and frame installation',
-        thumbnailUrl: ['https://www.falconinvisiblegrill.com/assets/image-2.jpeg'],
+        thumbnailUrl: ['https://www.chennaiinvisiblegrill.com/assets/image-2.jpeg'],
         uploadDate: new Date().toISOString(),
         duration: 'PT4M15S',
-        contentUrl: 'https://www.falconinvisiblegrill.com/assets/invisible-window-grills-installation-part-1.mp4',
-        embedUrl: 'https://www.falconinvisiblegrill.com/assets/invisible-window-grills-installation-part-1.mp4',
+        contentUrl: 'https://www.chennaiinvisiblegrill.com/assets/invisible-window-grills-installation-part-1.mp4',
+        embedUrl: 'https://www.chennaiinvisiblegrill.com/assets/invisible-window-grills-installation-part-1.mp4',
         interactionStatistic: {
           '@type': 'InteractionCounter',
           interactionType: 'https://schema.org/WatchAction',
@@ -449,14 +449,14 @@ export default function StructuredData() {
       },
       {
         '@type': 'VideoObject',
-        '@id': 'https://www.falconinvisiblegrill.com/#video-2',
+        '@id': 'https://www.chennaiinvisiblegrill.com/#video-2',
         name: 'Invisible Door Grills Installation - Part 2',
         description: 'Complete installation guide for invisible door and balcony grills with cable threading and connection',
-        thumbnailUrl: ['https://www.falconinvisiblegrill.com/assets/image-3.jpeg'],
+        thumbnailUrl: ['https://www.chennaiinvisiblegrill.com/assets/image-3.jpeg'],
         uploadDate: new Date().toISOString(),
         duration: 'PT4M22S',
-        contentUrl: 'https://www.falconinvisiblegrill.com/assets/invisible-door-grills-installation-part-2.mp4',
-        embedUrl: 'https://www.falconinvisiblegrill.com/assets/invisible-door-grills-installation-part-2.mp4',
+        contentUrl: 'https://www.chennaiinvisiblegrill.com/assets/invisible-door-grills-installation-part-2.mp4',
+        embedUrl: 'https://www.chennaiinvisiblegrill.com/assets/invisible-door-grills-installation-part-2.mp4',
         interactionStatistic: {
           '@type': 'InteractionCounter',
           interactionType: 'https://schema.org/WatchAction',
@@ -469,14 +469,14 @@ export default function StructuredData() {
       },
       {
         '@type': 'VideoObject',
-        '@id': 'https://www.falconinvisiblegrill.com/#video-3',
+        '@id': 'https://www.chennaiinvisiblegrill.com/#video-3',
         name: 'Frameless Grills Features & Benefits - Part 3',
         description: 'Exclusive walkthrough of frameless grill features, child safety mechanisms and aesthetic benefits',
-        thumbnailUrl: ['https://www.falconinvisiblegrill.com/assets/image-4.jpeg'],
+        thumbnailUrl: ['https://www.chennaiinvisiblegrill.com/assets/image-4.jpeg'],
         uploadDate: new Date().toISOString(),
         duration: 'PT3M50S',
-        contentUrl: 'https://www.falconinvisiblegrill.com/assets/frameless-grills-features-benefits-part-3.mp4',
-        embedUrl: 'https://www.falconinvisiblegrill.com/assets/frameless-grills-features-benefits-part-3.mp4',
+        contentUrl: 'https://www.chennaiinvisiblegrill.com/assets/frameless-grills-features-benefits-part-3.mp4',
+        embedUrl: 'https://www.chennaiinvisiblegrill.com/assets/frameless-grills-features-benefits-part-3.mp4',
         interactionStatistic: {
           '@type': 'InteractionCounter',
           interactionType: 'https://schema.org/WatchAction',
@@ -489,14 +489,14 @@ export default function StructuredData() {
       },
       {
         '@type': 'VideoObject',
-        '@id': 'https://www.falconinvisiblegrill.com/#video-4',
+        '@id': 'https://www.chennaiinvisiblegrill.com/#video-4',
         name: 'Customer Testimonials & Real Installations - Part 4',
         description: 'Real customer testimonials, installation results and before-after showcasing invisible grills in homes',
-        thumbnailUrl: ['https://www.falconinvisiblegrill.com/assets/image-5.jpeg'],
+        thumbnailUrl: ['https://www.chennaiinvisiblegrill.com/assets/image-5.jpeg'],
         uploadDate: new Date().toISOString(),
         duration: 'PT3M45S',
-        contentUrl: 'https://www.falconinvisiblegrill.com/assets/customer-testimonials-installations-part-4.mp4',
-        embedUrl: 'https://www.falconinvisiblegrill.com/assets/customer-testimonials-installations-part-4.mp4',
+        contentUrl: 'https://www.chennaiinvisiblegrill.com/assets/customer-testimonials-installations-part-4.mp4',
+        embedUrl: 'https://www.chennaiinvisiblegrill.com/assets/customer-testimonials-installations-part-4.mp4',
         interactionStatistic: {
           '@type': 'InteractionCounter',
           interactionType: 'https://schema.org/WatchAction',
@@ -513,14 +513,14 @@ export default function StructuredData() {
   const contactPointSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://falconinvisiblegrill.com/#contact',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#contact',
     name: 'Falcon Invisible Grills - Customer Support',
     contactPoint: [
       {
         '@type': 'ContactPoint',
         contactType: 'Sales',
         telephone: '+91-8008430800',
-        email: 'sales@falconinvisiblegrill.com',
+        email: 'sales@chennaiinvisiblegrill.com',
         areaServed: ['IN'],
         availableLanguage: ['en', 'hi'],
         hoursAvailable: {
@@ -534,7 +534,7 @@ export default function StructuredData() {
         '@type': 'ContactPoint',
         contactType: 'Customer Support',
         telephone: '+91-8008430800',
-        email: 'support@falconinvisiblegrill.com',
+        email: 'support@chennaiinvisiblegrill.com',
         areaServed: ['IN'],
         availableLanguage: ['en', 'hi'],
       },
@@ -542,7 +542,7 @@ export default function StructuredData() {
         '@type': 'ContactPoint',
         contactType: 'Installation Request',
         telephone: '+91-8008430800',
-        url: 'https://falconinvisiblegrill.com#contact',
+        url: 'https://www.chennaiinvisiblegrill.com#contact',
         areaServed: ['IN'],
       },
     ],
@@ -551,7 +551,7 @@ export default function StructuredData() {
   const citySpecificBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    '@id': 'https://falconinvisiblegrill.com/#locations',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#locations',
     name: 'Falcon Invisible Grills India',
     description: 'Premium invisible grill installation services across major Indian cities',
     hasMultipleLocations: true,
@@ -622,21 +622,21 @@ export default function StructuredData() {
   const articleSchema = {
     '@context': 'https://schema.org',
     '@type': 'Article',
-    '@id': 'https://falconinvisiblegrill.com/#article',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#article',
     headline: 'Complete Guide to Invisible Grills - Installation, Benefits & Safety',
     description: 'Comprehensive guide to invisible grills including types, benefits, installation process, safety features, and maintenance tips',
-    image: 'https://falconinvisiblegrill.com/assets/image-1.jpeg',
+    image: 'https://www.chennaiinvisiblegrill.com/assets/image-1.jpeg',
     author: {
       '@type': 'Organization',
       name: 'Falcon Invisible Grills',
-      url: 'https://falconinvisiblegrill.com',
+      url: 'https://www.chennaiinvisiblegrill.com',
     },
     publisher: {
       '@type': 'Organization',
       name: 'Falcon Invisible Grills',
       logo: {
         '@type': 'ImageObject',
-        url: 'https://falconinvisiblegrill.com/logo.png',
+        url: 'https://www.chennaiinvisiblegrill.com/logo.png',
       },
     },
     datePublished: new Date().toISOString(),
@@ -649,31 +649,31 @@ export default function StructuredData() {
   const imageGallerySchema = {
     '@context': 'https://schema.org',
     '@type': 'ImageGallery',
-    '@id': 'https://falconinvisiblegrill.com/#gallery',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#gallery',
     name: 'Falcon Invisible Grills Photo Gallery',
     description: 'Premium photo collection of invisible grills installations in homes, offices and commercial spaces',
     associatedMedia: [
       {
         '@type': 'ImageObject',
-        url: 'https://falconinvisiblegrill.com/assets/image-1.jpeg',
+        url: 'https://www.chennaiinvisiblegrill.com/assets/image-1.jpeg',
         name: 'Invisible Window Grills Installation',
         description: 'Professional installation of invisible window grills',
       },
       {
         '@type': 'ImageObject',
-        url: 'https://falconinvisiblegrill.com/assets/image-2.jpeg',
+        url: 'https://www.chennaiinvisiblegrill.com/assets/image-2.jpeg',
         name: 'Frameless Door Grills',
         description: 'Modern frameless grill design for doors',
       },
       {
         '@type': 'ImageObject',
-        url: 'https://falconinvisiblegrill.com/assets/image-3.jpeg',
+        url: 'https://www.chennaiinvisiblegrill.com/assets/image-3.jpeg',
         name: 'Balcony Invisible Grills',
         description: 'Premium invisible grills for balcony safety',
       },
       {
         '@type': 'ImageObject',
-        url: 'https://falconinvisiblegrill.com/assets/image-4.jpeg',
+        url: 'https://www.chennaiinvisiblegrill.com/assets/image-4.jpeg',
         name: 'Child Safe Grills',
         description: 'Transparent grills for child safety',
       },
@@ -683,7 +683,7 @@ export default function StructuredData() {
   const priceSpecificationSchema = {
     '@context': 'https://schema.org',
     '@type': 'AggregateOffer',
-    '@id': 'https://falconinvisiblegrill.com/#pricing',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#pricing',
     priceCurrency: 'INR',
     price: 'Contact for Quote',
     pricingCategory: 'Service',
@@ -698,11 +698,11 @@ export default function StructuredData() {
   const testimonialSchema = {
     '@context': 'https://schema.org',
     '@type': 'Review',
-    '@id': 'https://falconinvisiblegrill.com/#testimonials',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#testimonials',
     itemReviewed: {
       '@type': 'Product',
       name: 'Falcon Invisible Grills',
-      image: 'https://falconinvisiblegrill.com/assets/image-1.jpeg',
+      image: 'https://www.chennaiinvisiblegrill.com/assets/image-1.jpeg',
       aggregateRating: {
         '@type': 'AggregateRating',
         ratingValue: '4.8',
@@ -755,7 +755,7 @@ export default function StructuredData() {
   const guaranteeSchema = {
     '@context': 'https://schema.org',
     '@type': 'WarrantyPromise',
-    '@id': 'https://falconinvisiblegrill.com/#warranty',
+    '@id': 'https://www.chennaiinvisiblegrill.com/#warranty',
     name: 'Falcon Invisible Grills Warranty & Guarantee',
     description: 'Comprehensive warranty covering manufacturing defects and professional installation',
     warrantyScope: 'https://schema.org/WarrantyScope_Parts_And_Labor',
@@ -835,3 +835,4 @@ export default function StructuredData() {
     </>
   );
 }
+

@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'get grill quote online',
   ],
   alternates: {
-    canonical: 'https://www.falconinvisiblegrill.com/contact',
+    canonical: 'https://www.chennaiinvisiblegrill.com/contact',
   },
 };
 
@@ -32,3 +32,4 @@ export default function ContactPage() {
     </main>
   );
 }
+

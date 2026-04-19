@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'invisible grill cost',
   ],
   alternates: {
-    canonical: 'https://www.falconinvisiblegrill.com/faq',
+    canonical: 'https://www.chennaiinvisiblegrill.com/faq',
   },
 };
 
@@ -32,3 +32,4 @@ export default function FAQPage() {
     </main>
   );
 }
+

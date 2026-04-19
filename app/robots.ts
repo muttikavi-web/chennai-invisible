@@ -7,6 +7,7 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: '/admin',
     },
-    sitemap: 'https://www.falconinvisiblegrill.com/sitemap.xml',
+    sitemap: 'https://www.chennaiinvisiblegrill.com/sitemap.xml',
   };
 }
+
