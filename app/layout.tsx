@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from 'next';
 import { Inter } from 'next/font/google';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 // import StructuredData from '@/components/StructuredData';
 import './globals.css';
 import StructuredData from './components/StructuredData';
@@ -322,7 +323,10 @@ export default function RootLayout({
         <link rel="dns-prefetch" href="https://www.googleadservices.com" />
         <StructuredData />
       </head>
-      <body className={`${inter.className} antialiased`}>{children}</body>
+      <body className={`${inter.className} antialiased`}>
+        {children}
+        <SpeedInsights />
+      </body>
     </html>
   );
 }
