@@ -116,6 +116,8 @@ export const metadata: Metadata = {
     'invisible grills for hospitals',
     'invisible grills for apartments',
     'invisible grills for hotels',
+    'local invisible grills',
+    'near invisible grills chennai',
     
     // Window & Door focused
     'invisible window grills',
