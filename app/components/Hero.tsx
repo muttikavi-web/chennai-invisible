@@ -4,7 +4,7 @@ import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center text-white overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center text-white overflow-hidden" id="chennai">
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
@@ -22,10 +22,11 @@ export default function Hero() {
       <div className="relative z-10 container-custom">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-            Premium Invisible Grill Solutions in Chennai
+            Invisible Grills in Chennai – Safety, Elegance & Unobstructed Views
           </h1>
+          <h2 className="text-2xl font-semibold mb-4">Free Installation & Inspection | Quality Warranty | Affordable Prices</h2>
           <p className="text-xl md:text-2xl mb-8 opacity-95">
-            Transform your home with our innovative invisible grill systems that combine safety, elegance, and durability. Now available in Chennai and all major cities.
+            Transform your home with our innovative invisible grill systems that combine safety, elegance, and durability. Now available in Chennai and all major cities. Protect your loved ones and enjoy unobstructed views with Falcon Invisible Grills.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center gap-2">
