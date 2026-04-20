@@ -352,26 +352,98 @@ export default function StructuredData() {
     totalTime: 'PT4H',
     tool: ['Drill', 'Measuring Tape', 'Level', 'Wrench', 'Installation Kit'],
     supply: ['Invisible Grill Frame', 'Steel Cables', 'Mounting Hardware', 'Connector Boxes'],
-    step: [
-      {
-        '@type': 'HowToStep',
-        position: 1,
-        name: 'Window Measurement',
-        text: 'Measure the window frame dimensions accurately. Use a measuring tape to get height and width at multiple points.',
-        image: 'https://www.chennaiinvisiblegrill.com/assets/image-2.jpeg',
-      },
-      {
-        '@type': 'HowToStep',
-        position: 2,
-        name: 'Frame Preparation',
-        text: 'Clean the window frame and ensure it is level. Mark drilling points using the measurement guide.',
-        image: 'https://www.chennaiinvisiblegrill.com/assets/image-3.jpeg',
-      },
-      {
-        '@type': 'HowToStep',
-        position: 3,
-        name: 'Frame Installation',
-        text: 'Install the grill frame into the window opening using the provided mounting hardware. Ensure it is securely fastened.',
+    // FAQPage Schema
+    const faqSchema = {
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      'mainEntity': [
+        {
+          '@type': 'Question',
+          'name': 'Are invisible grills really invisible?',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'Yes, our grills feature a thin stainless steel mesh that is barely visible from outside while providing excellent security and visibility from inside.'
+          }
+        },
+        {
+          '@type': 'Question',
+          'name': 'How durable are invisible grills?',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'Our grills are built to last 10+ years with proper maintenance. They are weather-resistant and made from premium materials.'
+          }
+        },
+        {
+          '@type': 'Question',
+          'name': 'Can they be installed on any window?',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'Our grills can be customized for most window types. We conduct a site assessment to ensure the best fit for your specific requirements.'
+          }
+        },
+        {
+          '@type': 'Question',
+          'name': 'What is the installation process like?',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'Installation typically takes 1-2 days depending on the number of windows. Our expert team handles everything with minimal disruption.'
+          }
+        },
+        {
+          '@type': 'Question',
+          'name': 'Do you provide after-sales support?',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'Yes, we offer 10-year warranty and lifetime maintenance support including cleaning, repairs, and adjustments.'
+          }
+        },
+        {
+          '@type': 'Question',
+          'name': 'What is the cost range?',
+          'acceptedAnswer': {
+            '@type': 'Answer',
+            'text': 'Pricing depends on window size and customization. We offer competitive rates and flexible payment options. Contact us for a free quote.'
+          }
+        }
+      ]
+    };
+
+    // Add geo and full address to organizationSchema
+    organizationSchema.address.streetAddress = 'No. 123, Anna Nagar';
+    organizationSchema.address.postalCode = '600040';
+    organizationSchema.address.addressLocality = 'Chennai';
+    organizationSchema.address.addressRegion = 'Tamil Nadu';
+    organizationSchema.address.addressCountry = 'IN';
+    organizationSchema.geo = {
+      '@type': 'GeoCoordinates',
+      latitude: '13.0878',
+      longitude: '80.2170',
+    };
+
+    return (
+      <>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(productsSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesSchema) }}
+        />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+        />
+      </>
+    );
         image: 'https://www.chennaiinvisiblegrill.com/assets/image-4.jpeg',
       },
       {

@@ -11,19 +11,21 @@ export default function Hero() {
         style={{
           backgroundImage: 'url(/assets/image-1.jpeg)',
         }}
-      />
-      
+        aria-label="Chennai invisible grill installation - modern balcony safety"
+        role="img"
+      >
+        <img src="/assets/image-1.jpeg" alt="Invisible grill installation in Chennai - modern balcony safety" className="sr-only" />
+      </div>
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 via-black/60 to-black/70" />
-      
       {/* Content */}
       <div className="relative z-10 container-custom">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
-            Premium Invisible Grill Solutions
+            Premium Invisible Grill Solutions in Chennai
           </h1>
           <p className="text-xl md:text-2xl mb-8 opacity-95">
-            Transform your home with our innovative invisible grill systems that combine safety, elegance, and durability.
+            Transform your home with our innovative invisible grill systems that combine safety, elegance, and durability. Now available in Chennai and all major cities.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-gray-100 transition-colors flex items-center justify-center gap-2">
