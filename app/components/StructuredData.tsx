@@ -114,6 +114,7 @@ export default function StructuredData() {
         availableLanguage: ['en', 'hi'],
       },
     ],
+    geo: {}, // Add geo property for TypeScript
   };
 
   const productsSchema = {
