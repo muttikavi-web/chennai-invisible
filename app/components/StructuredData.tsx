@@ -86,6 +86,7 @@ export default function StructuredData() {
       'Child Safety Grills',
       'Stainless Steel Grills',
       'Custom Invisible Grills',
+      'ypl invisible grill',
     ],
     aggregateRating: {
       '@type': 'AggregateRating',

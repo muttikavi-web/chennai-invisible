@@ -21,8 +21,9 @@ export const metadata: Metadata = {
     template: '%s | Falcon Invisible Grills',
   },
   description:
-    'Falcon Invisible Grills - #1 invisible grill provider in Chennai, Delhi, Mumbai, Bangalore, Hyderabad. Premium invisible window grills, door grills, frameless grills with professional installation in Chennai and all major cities. Safe, durable, elegant grill solutions for your home, balcony, and office. Shop now for Chennai invisible grills!',
+    'Falcon Invisible Grills - #1 invisible grill provider in Chennai, local, near, Bangalore, Hyderabad. Premium invisible window grills, door grills, frameless grills with professional installation in Chennai and all major cities. Safe, durable, elegant grill solutions for your home, balcony, and office. Shop now for Chennai invisible grills! (ypl invisible grill)',
   keywords: [
+    'ypl invisible grill',
     // Core keywords
     'invisible grills',
     'invisible grill',
