@@ -341,6 +341,19 @@ export default function StructuredData() {
     ],
   };
 
+
+  // Add geo and full address to organizationSchema
+  organizationSchema.address.streetAddress = 'No. 123, Anna Nagar';
+  organizationSchema.address.postalCode = '600040';
+  organizationSchema.address.addressLocality = 'Chennai';
+  organizationSchema.address.addressRegion = 'Tamil Nadu';
+  organizationSchema.address.addressCountry = 'IN';
+  organizationSchema.geo = {
+    '@type': 'GeoCoordinates',
+    latitude: '13.0878',
+    longitude: '80.2170',
+  };
+
   const howToSchema = {
     '@context': 'https://schema.org',
     '@type': 'HowTo',
@@ -352,123 +365,84 @@ export default function StructuredData() {
     totalTime: 'PT4H',
     tool: ['Drill', 'Measuring Tape', 'Level', 'Wrench', 'Installation Kit'],
     supply: ['Invisible Grill Frame', 'Steel Cables', 'Mounting Hardware', 'Connector Boxes'],
-    // FAQPage Schema
-    const faqSchema = {
-      '@context': 'https://schema.org',
-      '@type': 'FAQPage',
-      'mainEntity': [
-        {
-          '@type': 'Question',
-          'name': 'Are invisible grills really invisible?',
-          'acceptedAnswer': {
-            '@type': 'Answer',
-            'text': 'Yes, our grills feature a thin stainless steel mesh that is barely visible from outside while providing excellent security and visibility from inside.'
-          }
-        },
-        {
-          '@type': 'Question',
-          'name': 'How durable are invisible grills?',
-          'acceptedAnswer': {
-            '@type': 'Answer',
-            'text': 'Our grills are built to last 10+ years with proper maintenance. They are weather-resistant and made from premium materials.'
-          }
-        },
-        {
-          '@type': 'Question',
-          'name': 'Can they be installed on any window?',
-          'acceptedAnswer': {
-            '@type': 'Answer',
-            'text': 'Our grills can be customized for most window types. We conduct a site assessment to ensure the best fit for your specific requirements.'
-          }
-        },
-        {
-          '@type': 'Question',
-          'name': 'What is the installation process like?',
-          'acceptedAnswer': {
-            '@type': 'Answer',
-            'text': 'Installation typically takes 1-2 days depending on the number of windows. Our expert team handles everything with minimal disruption.'
-          }
-        },
-        {
-          '@type': 'Question',
-          'name': 'Do you provide after-sales support?',
-          'acceptedAnswer': {
-            '@type': 'Answer',
-            'text': 'Yes, we offer 10-year warranty and lifetime maintenance support including cleaning, repairs, and adjustments.'
-          }
-        },
-        {
-          '@type': 'Question',
-          'name': 'What is the cost range?',
-          'acceptedAnswer': {
-            '@type': 'Answer',
-            'text': 'Pricing depends on window size and customization. We offer competitive rates and flexible payment options. Contact us for a free quote.'
-          }
-        }
-      ]
-    };
-
-    // Add geo and full address to organizationSchema
-    organizationSchema.address.streetAddress = 'No. 123, Anna Nagar';
-    organizationSchema.address.postalCode = '600040';
-    organizationSchema.address.addressLocality = 'Chennai';
-    organizationSchema.address.addressRegion = 'Tamil Nadu';
-    organizationSchema.address.addressCountry = 'IN';
-    organizationSchema.geo = {
-      '@type': 'GeoCoordinates',
-      latitude: '13.0878',
-      longitude: '80.2170',
-    };
-
-    return (
-      <>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(productsSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesSchema) }}
-        />
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-        />
-      </>
-    );
-        image: 'https://www.chennaiinvisiblegrill.com/assets/image-4.jpeg',
+    step: [
+      {
+        '@type': 'HowToStep',
+        position: 1,
+        name: 'Preparation',
+        text: 'Measure the window/door, gather tools and supplies, and prepare the installation area.',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-1.jpeg',
+      },
+      {
+        '@type': 'HowToStep',
+        position: 2,
+        name: 'Frame Installation',
+        text: 'Install the invisible grill frame securely into the window or door opening.',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-2.jpeg',
+      },
+      {
+        '@type': 'HowToStep',
+        position: 3,
+        name: 'Cable Measurement & Cutting',
+        text: 'Measure and cut the steel cables to the required length for the installation.',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-3.jpeg',
       },
       {
         '@type': 'HowToStep',
         position: 4,
         name: 'Cable Configuration',
         text: 'Thread the steel cables through the frame and connect them to the connector boxes and handle mechanism.',
-        image: 'https://www.chennaiinvisiblegrill.com/assets/image-5.jpeg',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-4.jpeg',
       },
       {
         '@type': 'HowToStep',
         position: 5,
         name: 'Testing & Adjustment',
         text: 'Test the grill functionality, adjust cable tension if needed, and verify smooth operation.',
-        image: 'https://www.chennaiinvisiblegrill.com/assets/image-6.jpeg',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-5.jpeg',
       },
       {
         '@type': 'HowToStep',
         position: 6,
         name: 'Final Inspection',
         text: 'Perform final safety checks, ensure all connections are secure, and clean the installed grill.',
-        image: 'https://www.chennaiinvisiblegrill.com/assets/image-7.jpeg',
+        image: 'https://www.chennaiinvisiblegrill.com/assets/image-6.jpeg',
       },
     ],
   };
+
+  return (
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(productsSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(servicesSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }}
+      />
+    </>
+  );
 
   const videoObjectSchema = {
     '@context': 'https://schema.org',
